@@ -1,0 +1,26 @@
+{
+    deposits(
+        first: 1000
+        skip: %s
+        where: { timestamp_gte: "%s", timestamp_lt: "%s" }
+    ) {
+        id
+        hash
+        timestamp
+        account {
+            id
+        }
+        market {
+            id
+        }
+        asset {
+            id
+            name
+        }
+        position {
+            id
+        }
+        amount
+        amountUSD
+    }
+}
