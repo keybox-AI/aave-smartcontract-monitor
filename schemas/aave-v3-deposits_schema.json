@@ -1,0 +1,63 @@
+[
+    {
+      "name": "id",
+      "type": "STRING",
+      "mode": "REQUIRED",
+      "description": "Unique identifier for the record"
+    },
+    {
+      "name": "hash",
+      "type": "STRING",
+      "mode": "REQUIRED",
+      "description": "Hash value associated with the record"
+    },
+    {
+      "name": "account_id",
+      "type": "STRING",
+      "mode": "REQUIRED",
+      "description": "Account identifier associated with the record"
+    },
+    {
+      "name": "market_id",
+      "type": "STRING",
+      "mode": "REQUIRED",
+      "description": "Market identifier related to the record"
+    },
+    {
+      "name": "asset_id",
+      "type": "STRING",
+      "mode": "REQUIRED",
+      "description": "Asset identifier for the asset involved in the transaction"
+    },
+    {
+      "name": "asset_name",
+      "type": "STRING",
+      "mode": "REQUIRED",
+      "description": "Name of the asset involved in the transaction"
+    },
+    {
+      "name": "position_id",
+      "type": "STRING",
+      "mode": "REQUIRED",
+      "description": "Position identifier that combines account, market, and other relevant details"
+    },
+    {
+      "name": "amount",
+      "type": "STRING",
+      "mode": "REQUIRED",
+      "description": "The amount of the asset in its smallest unit"
+    },
+    {
+      "name": "amountUSD",
+      "type": "FLOAT",
+      "mode": "REQUIRED",
+      "description": "The amount of the asset converted into USD"
+    },
+    {
+      "name": "block_timestamp",
+      "type": "TIMESTAMP",
+      "mode": "REQUIRED",
+      "description": "Block timestamp when the record was created"
+    }
+  ]
+  
