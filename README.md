@@ -3,3 +3,6 @@ Develop a dashboard to monitor smart contract activities and identify suspicious
 
 ## Run
 python3 main.py <START_DATE> <END_DATE>
+
+## Design
+![design](design.jpg)
